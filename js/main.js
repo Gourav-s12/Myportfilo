@@ -192,7 +192,7 @@ $(document).ready(function(){
             //deactive pp loader
             setTimeout(function (){
                 popup.querySelector(".pp-loader").classList.remove("active");
-              }, 300);
+              }, 100);
         }
         popup.querySelector(".pp-counter").innerHTML= (slideIndex+1) + " of " + screenshots.length;
     }
