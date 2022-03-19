@@ -86,7 +86,7 @@ $(document).ready(function(){
     });
     //contect typing
      var typed = new Typed(".typing-3", {
-        strings: ["Thank you for visiting", "Have a nice day"],
+        strings: ["Thank you for visiting", "Have a nice day!"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
