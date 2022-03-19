@@ -1,0 +1,79 @@
+.style-switcher{
+    position: fixed;
+    right: 0;
+    top: 90px;
+    padding: 15px;
+    width: 200px;
+    z-index: 101;
+    border-radius: 5px;
+    background-color: var(--bg-black-50);
+    transition: all 0.5s ease;
+    transform: translateX(100%);
+}
+.style-switcher.blur{
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+}
+.style-switcher.open{
+    transform: translateX(-15px);
+}
+.style-switcher .s-icon{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: var(--bg-black-900);
+    cursor: pointer;
+    transition: all0.3s ease;
+    border-radius: 50%;
+    left: -48px;
+}
+.style-switcher .s-icon i{
+    line-height: 40px;
+}
+.style-switcher .s-icon:after{
+    border-radius: 50%;
+}
+.style-switcher .style-s-toggler{
+    top: 0;
+    color: var(--skin-color);
+}
+.style-switcher .light-dark{
+    top: 55px;
+    border: 1px dashed var(--bg-black-900);
+}
+.style-switcher h3{
+    margin: 0 0 10px;
+    color: var(--text-black-700);
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.style-switcher .colors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.style-switcher .colors span{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.style-switcher .color-1{
+    background-color: #e872f7;
+}
+.style-switcher .color-2{
+    background-color: #ec9412;
+}
+.style-switcher .color-3{
+    background-color: #1fc586;
+}
+.style-switcher .color-4{
+    background-color: #2eb1ed;
+}
+.style-switcher .color-5{
+    background-color: #f73b3b;
+}
